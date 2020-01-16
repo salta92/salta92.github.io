@@ -12,20 +12,21 @@ body {
 }
 
 h1 {
-    font-size: 32.xrem;
+    font-size: 3rem;
     color: lightblue;
 }
 
 h2 {
-    font-size: 24.xrem;
+    font-size: 1.75rem;
     text-align: left;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px;
+    margin-bottom: 32px;
 }
 
 header,
 main,
 footer {
-    margin: 1.25rem auto;
+    margin: 0 auto;
     padding: 3rem;
 }
 
@@ -43,10 +44,11 @@ footer {
 }
 
 header img {
-    width: 256px;
+    max-width: 256px;
     height: auto;
     float: right;
     padding-top: 3rem;
+    box-shadow: 5px 5px 5px #999;
 }
 
 footer {
