@@ -7,13 +7,13 @@ body {
     font-size: 16px;
     line-height: 32px;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    color: #000000;
-
+    background-color: #FFFFFF;
+    height: auto;
 }
 
 h1 {
     font-size: 3rem;
-    color: lightblue;
+    color: teal;
 }
 
 h2 {
@@ -21,34 +21,40 @@ h2 {
     text-align: left;
     border-bottom: 1px;
     margin-bottom: 32px;
+    color: teal;
 }
 
 header,
-main,
-footer {
+main{
     margin: 0 auto;
-    padding: 3rem;
+    padding: 5rem;
 }
 
 header,
 footer a {
     text-align: left;
-    background-color: darkgrey;
-    color: lightblue;
+    background-color: #282828;
+    color: teal;
+}
+
+ul{
+    color: teal;
+    font-style: bold;
 }
 
 footer {
     text-align: center;
-    background-color: darkgrey;
-    color: lightblue;
+    background-color: #282828;
+    color: teal;
+    padding: 3rem;
 }
 
 header img {
     max-width: 256px;
     height: auto;
     float: right;
-    padding-top: 3rem;
-    box-shadow: 5px 5px 5px #999;
+    margin: 3rem;
+    box-shadow: 5px 5px 5px #282828;
 }
 
 footer {
