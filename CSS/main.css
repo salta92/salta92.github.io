@@ -8,7 +8,6 @@ body {
     line-height: 32px;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     background-color: #FFFFFF;
-    height: auto;
 }
 
 h1 {
@@ -20,13 +19,19 @@ h2 {
     font-size: 1.75rem;
     text-align: left;
     border-bottom: 1px;
-    margin-bottom: 32px;
+    margin-bottom: 128px;
+    margin-left: 5rem;
     color: teal;
 }
 
-header,
+header{
+    margin: 0 auto;
+    padding: 5rem;
+}
+
 main{
     margin: 0 auto;
+    margin-left: 10rem;
     padding: 5rem;
 }
 
@@ -40,6 +45,7 @@ footer a {
 ul{
     color: teal;
     font-style: bold;
+    margin-bottom: 128px;
 }
 
 footer {
